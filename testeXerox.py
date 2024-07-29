@@ -156,6 +156,8 @@ pyautogui.press('enter', interval=0.01)
 pyperclip.copy("Vendas com Estatísticas")  #Nome da pasta que vai ser usada
 pyautogui.hotkey('ctrl', 'v')
 pyautogui.press('enter', interval=0.01)
-pyautogui.press('tab', presses=2, interval=0.01)
+pyautogui.press('tab', presses=1, interval=0.01)
 pyautogui.press('enter', interval=0.01)
 
+
+pyautogui.alert('Processo de ler uma planilha e carregar em uma pagina completo! 😎👌')
